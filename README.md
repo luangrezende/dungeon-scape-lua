@@ -1,12 +1,13 @@
 # DungeonScape
-A RPG game write in Lua Code, DungeonScape!
+**A RPG game write in Lua Code, DungeonScape!**
 
 
-Desenvolvimento e criação de um game em 2D na linguagem LUA utilizando o emulador TIC-80.
 
-"Dungeon Scape"
+Desenvolvimento E CriaçãO De Um Game Em 2d Na Linguagem Lua Utilizando O Emulador Tic-80.
 
-Descrição:
+> "Dungeon Scape"
+
+**Descrição:**
 ● Criação de Sprites em 8bit
 ● Animação de personagem
 ● Modelagem do mapa
@@ -14,4 +15,6 @@ Descrição:
 ● Coleta e armazenamento de Itens
 ● Inimigos que perseguem
 ● Menu e tela de inicio
+
+:tw-1f60e:
 
