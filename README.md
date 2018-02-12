@@ -25,3 +25,7 @@ Objetivo: pegue a chave, abra a porta, despiste o inimigo e escape da caverna!!
 ```html
 baixe o arquivo "DUNGEON.html" e execute em qualquer navegador(recomendado: Google Chrome ou Mozzila)
 ```
+
+
+Enjoy!!
+![](https://media.giphy.com/media/UAqSD9wBYli7e/giphy.gif)
