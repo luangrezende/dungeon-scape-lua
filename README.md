@@ -12,7 +12,7 @@ Objetivo: pegue a chave, abra a porta, despiste o inimigo e escape da caverna!!
 **Descrição:**
 
 ```html
-● Criação de Sprites em 8bit
+● Sprites em 8bit
 ● Animação de personagem
 ● Modelagem do mapa
 ● Sistema de colisão
