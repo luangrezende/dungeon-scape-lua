@@ -4,6 +4,12 @@
 ***PS:*** Game in development phase, counting on 1 phase initially, wait for more soon
 
 <br />
+<p align="center">
+  <img src="https://uploaddeimagens.com.br/images/001/511/413/original/lua1.JPG?1531749177" width="350"/>
+</p>
+<p align="center">
+  <img src="https://uploaddeimagens.com.br/images/001/511/416/original/lua2.JPG?1531749273" width="350"/>
+</p>
 <br />
 
 ### Objective:
