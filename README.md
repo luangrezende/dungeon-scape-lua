@@ -1,7 +1,7 @@
 # DungeonScape
 🎮**A RPG game write in Lua Code, DungeonScape!**
 <br />
-***PS:*** Game in development phase, counting on 1 phase initially, wait for more soon
+***PS:*** Game in development, counting on 1 phase initially, wait for more soon
 
 <br />
 <p align="center">
