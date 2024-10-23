@@ -30,7 +30,7 @@ Navegue até a pasta do projeto e localize o arquivo DUNGEON.html.
 Execute o jogo diretamente no seu navegador preferido (recomendamos Chrome ou Firefox):
 
 No navegador, abra o arquivo DUNGEON.html e comece sua aventura!
-<p align="center"> <img src="http://24.media.tumblr.com/ad6cd201eb34b20bb756b8cd9662938b/tumblr_n3sp7o8nYG1rey868o1_500.gif" width="400"/> </p>
+
 📜 História (em desenvolvimento):
 Você acorda em uma masmorra sombria, sem memória de como chegou lá. Armado apenas com sua inteligência e coragem, você deve explorar cada canto, encontrar itens escondidos e, finalmente, confrontar o Orc que guarda a saída. A chave mágica é sua única esperança de fuga. Mas cuidado, o caminho está cheio de armadilhas e monstros à espreita...
 
