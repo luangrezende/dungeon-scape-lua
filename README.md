@@ -1,70 +1,54 @@
 
-# 🏰 DungeonScape 🏰
+# 🏰 Dungeon Scape Game 🐉
 
-**DungeonScape** é um RPG 8-bit, em desenvolvimento com Lua, onde você precisa escapar de uma perigosa masmorra cheia de desafios. Enfrente inimigos, colete itens e descubra os segredos da DungeonScape! 🗝️
+A 2D dungeon crawler game built with Lua for the TIC-80 fantasy console.
 
-## 🎯 Objetivo
+## Overview
 
-Sua missão é escapar da masmorra, encontrar a chave mágica e abrir a porta para o confronto final com o temido Orc. ⚔️ Mas cuidado, ele fará de tudo para impedi-lo. Será que você consegue sobreviver e vencer?
+Dungeon Scape Game is a classic-style RPG where players navigate through a dungeon, collect keys, avoid enemies, and find the exit. The game features pixel art graphics, sound effects, and smooth character animations.
 
-## 🕹️ Recursos Principais
+## Features
 
-- **Sprites 8-bit**: Gráficos pixelados para uma experiência nostálgica.
-- **Animação de personagens**: Animações suaves e dinâmicas.
-- **Modelos de mapa**: Cenários detalhados, criando uma atmosfera de aventura.
-- **Sistema de colisão**: Movimentação realista com obstáculos que impactam a jogabilidade.
-- **Coleta e armazenamento de itens**: Recolha chaves, poções e outros itens essenciais.
-- **Inimigos com IA básica**: Os inimigos seguem o jogador.
-- **Menus e opções**: Navegação intuitiva por menus e configurações.
+- **Modular Architecture**: Clean code organization with separated systems
+- **Entity-Component System**: Player, enemies, and objects as independent entities
+- **Collision Detection**: Precise collision system for map tiles and entities
+- **Animation System**: Smooth sprite animations for all characters
+- **Sound Effects**: Audio feedback for key collection and door opening
+- **State Management**: Screen transitions between intro and gameplay
 
-## 🚀 Como Jogar
+## Project Structure
 
-1. Clone o projeto para uma pasta local:
-   ```bash
-   git clone https://github.com/luangrezende/dungeon-scape-lua.git
-   ```
-   
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd dungeon-scape-lua
-   ```
+```
+src/
+├── core/           # Core utilities and constants
+├── entity/         # Game entities (player, enemy, objects)  
+├── screen/         # Game screens (intro, game)
+├── system/         # Game systems (collision, movement, render)
+└── main.lua        # Entry point
+```
 
-3. Localize e execute o arquivo `DUNGEON.html` no seu navegador (recomendamos Chrome ou Firefox).
+## How to Play
 
-4. Comece sua aventura e tente escapar da masmorra!
+1. Open `Dungeon Scape Game.html` in a web browser
+2. Press DOWN arrow key to start
+3. Use arrow keys to move
+4. Collect keys to open doors
+5. Avoid enemies or restart the level
 
-## 📜 História (Em Desenvolvimento)
+## Development
 
-Você acorda em uma masmorra sombria, sem memória de como chegou lá. Armado apenas com sua inteligência e coragem, explore cada canto, encontre itens escondidos e, finalmente, confronte o Orc que guarda a saída. A chave mágica é sua única esperança de fuga. Mas cuidado: o caminho está cheio de armadilhas e monstros à espreita...
+Built for TIC-80 fantasy console using:
+- **Language**: Lua
+- **Graphics**: 8-bit pixel art sprites
+- **Resolution**: 240x136 pixels
+- **Palette**: 16-color palette
 
-**Mais fases e conteúdo em breve!** 🔮
+## Files
 
-## 💻 Tecnologias Utilizadas
+- `game.tic` - TIC-80 cartridge with game data
+- `Dungeon Scape Game.html` - Browser-playable version
+- `src/` - Source code modules
 
-- **Linguagem**: Lua (LÖVE framework)
-- **Arte**: Sprites 8-bit (pixel art)
-- **Mapeamento e Lógica**: Mapas desenhados em matrizes com colisões programadas
-- **HTML5**: Interface para execução do jogo diretamente no navegador
+## License
 
-## 🛠️ Como Contribuir
-
-1. Faça um fork deste repositório.
-2. Crie uma nova branch para suas alterações:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Faça o commit das suas alterações:
-   ```bash
-   git commit -m 'Adiciona nova feature'
-   ```
-4. Envie suas alterações para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request e descreva suas mudanças.
-
-**Adoramos receber novas ideias e sugestões!** 🎮
-
-## 🎉 Agradecimentos
-
-Agradecemos a todos que estão acompanhando o desenvolvimento de **DungeonScape**. Cada feedback conta e nos ajuda a melhorar o jogo. Continue nos acompanhando para mais atualizações e novos recursos!
+Created by Luan Gomes.
